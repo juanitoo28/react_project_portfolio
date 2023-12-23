@@ -57,13 +57,13 @@ a{
     .nav{
         top: calc(100vh - 8rem);
         transform: translateX(-50%);
-        top: 80%;
+        top: 90%;
     }
     .nav-link{
         width: 2rem;
     }
     .nav-link img{
-        width: 2rem;
+        width: 3rem;
     }
     .page-title{
         display: none;

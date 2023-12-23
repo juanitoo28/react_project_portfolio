@@ -84,6 +84,13 @@ export default function ContactMenu() {
 
   return (
     <div className='contact-menu'>
+        <div className='buttonCv'>
+          <a href="https://portfolio.jeantiago.com/CV_2023.pdf" target='_blank' rel='noopener noreferrer'>Télécharger CV</a>
+        </div>
+        <div>
+            <p className='orMessageMe'>Ou<br/></p>
+            <p className='orMessageMe'>Envoyer moi un message:</p>
+        </div>
         {!isSent && (
             <form onSubmit={handleSubmit}>
                 <div className='form-group'>

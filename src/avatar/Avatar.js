@@ -5,7 +5,8 @@ import "../styles/avatar.css";
 
 const Avatar = ({page}) => {
     const avatarClass = `avatar ${page}`;
-    const spanClass = `shadow-overlay-${page}`;
+    // const spanClass = `shadow-overlay-${page}`;
+    const spanClass = `${page}`;
 
     return(
         <>

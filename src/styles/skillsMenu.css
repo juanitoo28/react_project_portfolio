@@ -83,11 +83,11 @@
 }
 
 .filled{
-    background: linear-gradient(180deg, #236473, #25afce, #7ce7ff)
+    background: linear-gradient(180deg, #044105, #0b940d, #14ff18)
 }
 
 .unfilled{
-    background: linear-gradient(180deg, #1c8298, #074654, #074654)
+    background: linear-gradient(180deg, #000000, #771f1f, #9d0000)
 }
 
 .skill-sub-container{
@@ -144,5 +144,50 @@
         top: 30%;
         left: 50%;
         transform: translateY(-50%);
+    }
+    .skill-item.activeSkill .skill-title{
+        font-size: 1rem;
+    }
+    .skill-icon{
+        display: none;
+    }
+    .level-point{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.1rem;
+    }
+    .level-container{
+        gap: 0.5rem;
+    }
+    .skill-sub-container-1, .skill-sub-container-2{
+        gap: 0.5rem;
+    }
+    .skill-sub-container{
+        margin-top: 2rem;
+        gap: 0.3rem;
+        background: linear-gradient(90deg, rgba(0,0,0,0.25), rgba(255, 255, 255, 0)) !important;
+        border-radius: 20px;
+        padding: 5%;
+    }
+    h1{
+        font-size: 0.8rem;
+    }
+    h2, h3, p{
+        font-size: 0.7rem;
+    }
+    .skill-menu{
+        flex-direction: column;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        top: 18%;
+    }
+    .skill-item{
+        height: 3rem;
+        width: 12rem;
+        margin-right: -55%;
+    }
+    .skill-item.activeSkill h2{
+        font-size: 3rem;
     }
 }
