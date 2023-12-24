@@ -27,6 +27,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
+    text-decoration : none;
 }
 
 .page-title{

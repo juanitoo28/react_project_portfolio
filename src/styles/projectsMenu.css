@@ -1,8 +1,8 @@
 .project-menu{
-    width: 45rem;
+    width: 55rem;
     position: fixed;
     display: flex;
-    top: 25%;
+    top: 23%;
     left: 45%;
     transform: translateX(-50%);
 }
@@ -112,10 +112,10 @@
         top: 15%;
     }
     .project-item.activeProject .title{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .title{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .project-menu p{
         font-size: 1rem   ;
@@ -126,13 +126,13 @@
         font-size: 1.2rem;
         background: linear-gradient(90deg, rgba(0,0,0,0.25), rgba(255, 255, 255, 0)) !important;
         border-radius: 20px;
-        padding: 5%;
+        padding: 3%;
     }
     .project-sub-container h3{
         font-size: 1.1rem;
     }
     .project-sub-container img{
-        width: 20rem;
+        width: 17rem;
     }
     .link-container a{
         margin-top: 0.5rem;
@@ -146,7 +146,7 @@
     }
     .project-item{
         height: 3rem;
-        width: 90%;
+        width: 70%;
         display: flex;
         position: relative;
         justify-content: flex-end;
