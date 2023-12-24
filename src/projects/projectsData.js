@@ -1,6 +1,7 @@
 import projectOne from "../assets/projet1.png";
 import projectTwo from "../assets/projet2.png";
 import projectThree from "../assets/projet3.png";
+import projectfour from "../assets/projet4.png";
 
 const projects = {
     1:{
@@ -38,14 +39,14 @@ const projects = {
     },
     4:{
         title: "PORTFOLIO",
-        image: projectThree,
+        image: projectfour,
         description: (
             <>
                 <p>Création du PortFolio 2024 avec React JS</p>
             </>
         ),
-        github: "#",
-        demo: "#"
+        github: "https://github.com/juanitoo28/react_project_portfolio",
+        demo: "https://jeantiago.com/"
     },
 }
 

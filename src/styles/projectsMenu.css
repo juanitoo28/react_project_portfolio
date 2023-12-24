@@ -12,7 +12,7 @@
     display: flex;
     position: relative;
     width: 40%;
-    margin-top: 9rem;
+    margin-top: 6rem;
     align-items: flex-end;
 }
 
@@ -44,6 +44,9 @@
 .project-item.activeProject:nth-child(3){
     background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
 }
+.project-item.activeProject:nth-child(4){
+    background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+}
 
 .project-sub-container{
     width: 60%;
@@ -67,7 +70,7 @@
 }
 
 .project-sub-container p{
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .link-container a{
