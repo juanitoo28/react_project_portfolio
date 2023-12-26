@@ -173,3 +173,36 @@
         padding-left: 2%;
     }
 }
+
+@media screen and (orientation: landscape) {
+    .project-items-container{
+        flex-direction: column;
+        margin-top: 7%;
+    }
+    .project-item.activeProject{
+        width: 20%;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .project-sub-container{
+        margin-top: -14rem;
+        width: 50%;
+        font-size: 0.7rem;
+        border-radius: 20px;
+        padding: 1%;
+    }
+    .project-sub-container h3{
+        font-size: 0.7rem;
+    }
+    .project-sub-container p{
+        font-size: 0.7rem;
+    }
+    .project-sub-container img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .link-container{
+        margin-top: -1rem;
+        /* height: 0rem; */
+    }
+}
