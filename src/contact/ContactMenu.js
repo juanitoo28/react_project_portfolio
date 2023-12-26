@@ -83,14 +83,18 @@ export default function ContactMenu() {
   }
 
   return (
-    <div className='contact-menu'>
-        <div className='buttonCv'>
-          <a href="https://portfolio.jeantiago.com/CV_2023.pdf" target='_blank' rel='noopener noreferrer'>Télécharger CV</a>
+    <div className='Container'>
+        <div className='Cv'>
+            <div className='buttonCv'>
+            <a href="https://portfolio.jeantiago.com/CV_2023.pdf" target='_blank' rel='noopener noreferrer'>Télécharger CV</a>
+            </div>
         </div>
-        <div>
-            <p className='orMessageMe'>Ou<br/></p>
-            <p className='orMessageMe'>Envoyer moi un message:</p>
-        </div>
+        <div className='orMessageMe'>
+                <p>Ou<br/></p>
+                <p>Envoyer moi un message:</p>
+            </div>
+        
+        <div className='contact-menu'>
         {!isSent && (
             <form className="formulaire" onSubmit={handleSubmit}>
                 <div className='form-group'>
@@ -125,6 +129,7 @@ export default function ContactMenu() {
                 <p>Vous pouvez quitter cette page en toute sécurité.</p>
             </div>
         )}
+        </div>
     </div>
   )
 }

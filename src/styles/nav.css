@@ -68,6 +68,11 @@ a{
     }
     .page-title{
         display: none;
+    }   
+}
+
+@media screen and (orientation: landscape) {
+    .nav{
+        top: 80%;
     }
-    
 }

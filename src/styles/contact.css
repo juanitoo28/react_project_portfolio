@@ -1,8 +1,24 @@
 .contact-menu{
     position: absolute;
-    top: 57%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.Cv{
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.orMessageMe{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    text-align: center;
 }
 
 form{
@@ -84,36 +100,44 @@ label{
 }
 
 .buttonCv a{
-    margin-top: -25% !important;
-    font-size: 30px !important;
+    font-size: 25px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
-    width: auto;
-    height: auto;
-    padding: 3%;
-    margin-bottom: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
     text-decoration: none; 
     color: white;
     text-align: center;
 }
-.buttonCv:hover a{
-    padding: 4%;
+.buttonCv a:hover{
+    padding: 12%;
 }
-.orMessageMe{
-    text-align: center;
-    font-size: 1.5rem;
-}
+
 
 @media (max-width: 1100px){
     .contact-menu{
-        top: 50%;
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-}
-
-@media (max-width: 700px){
-    .contact-menu{
-        width: 70%;
-        /* height: 50%; */
+    
+    .Cv{
+        position: absolute;
+        top: 20%;
+        left: 49%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    
+    .orMessageMe{
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
+        text-align: center;
     }
     form{
         width: 100%;
@@ -125,23 +149,70 @@ label{
         padding: 0 0.5rem;
     }
     .buttonCv a{
-        margin-top: 15% !important;
+        /* margin-top: 15% !important; */
         font-size: 1rem !important;
         border-radius: 20px;
-        width: auto;
-        height: auto;
-        padding: 3%;
-        margin-bottom: 0%;
+        width: 100%;
+        padding: 10%;
+        /* margin-bottom: 0%; */
         text-decoration: none; 
         color: white;
         text-align: center;
     }
     .buttonCv:hover a{
-        padding: 4%;
+        padding: 13%;
     }
-    .orMessageMe{
+    .submit{
+        margin-top: -8%;
+    }
+}
+
+@media (max-width: 700px){
+    .contact-menu{
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .Cv{
+        position: absolute;
+        top: 20%;
+        left: 48%;
         text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    
+    .orMessageMe{
+        position: absolute;
+        top: 31%;
+        left: 49%;
+        transform: translate(-50%, -50%);
         font-size: 1rem;
+        text-align: center;
+    }
+    form{
+        width: 100%;
+    }
+    input, #message{
+        width: 92%;
+    }
+    .success-message p{
+        padding: 0 0.5rem;
+    }
+    .buttonCv a{
+        /* margin-top: 15% !important; */
+        font-size: 1rem !important;
+        border-radius: 20px;
+        width: 100%;
+        padding: 10%;
+        /* margin-bottom: 0%; */
+        text-decoration: none; 
+        color: white;
+        text-align: center;
+    }
+    .buttonCv:hover a{
+        padding: 13%;
     }
     .submit{
         margin-top: -8%;
@@ -150,8 +221,21 @@ label{
 
 @media screen and (orientation: landscape) {
     .contact-menu{
-        width: 90%;
-        height: 90% !important;
+        position: absolute;
+        top: 52%;
+        left: 65%;
+    }
+    
+    .Cv{
+        position: absolute;
+        top: 35%;
+        left: 29%;
+    }
+    
+    .orMessageMe{
+        position: absolute;
+        top: 55%;
+        left: 31%;
     }
     form{
         width: 100%;
@@ -163,28 +247,33 @@ label{
         padding: 0 0.5rem;
     }
     .buttonCv a{
-        display: none;
-        margin-top: 80% !important;
-        margin-left: -10%;
+        /* margin-top: 15% !important; */
         font-size: 1rem !important;
         border-radius: 20px;
-        width: 30%;
-        height: auto;
-        padding: 3%;
-        margin-bottom: 0%;
+        width: 100%;
+        padding: 10%;
+        /* margin-bottom: 0%; */
         text-decoration: none; 
         color: white;
         text-align: center;
     }
     .buttonCv:hover a{
-        padding: 4%;
-    }
-    .orMessageMe{
-        display: none;
-        text-align: center;
-        font-size: 1rem;
+        padding: 13%;
     }
     .submit{
         margin-top: -8%;
+    }
+
+    form{
+        gap: 1rem !important;
+    }
+
+    input, #message{
+        padding: 0.2rem;
+    }
+
+    #message{
+        height: 1.9rem;
+        resize: none;
     }
 }
