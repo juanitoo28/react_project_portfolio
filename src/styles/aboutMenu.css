@@ -166,3 +166,14 @@ p{
     }
 
 }
+@media screen and (orientation: landscape) {
+    .sub-container{
+        top: 25%;
+        left: 50%;
+        border-radius: 20px;
+        padding: 2%;
+    }
+    p{
+        font-size: 0.7rem !important;
+    }
+}
