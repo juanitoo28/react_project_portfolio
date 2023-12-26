@@ -92,7 +92,7 @@ export default function ContactMenu() {
             <p className='orMessageMe'>Envoyer moi un message:</p>
         </div>
         {!isSent && (
-            <form onSubmit={handleSubmit}>
+            <form className="formulaire" onSubmit={handleSubmit}>
                 <div className='form-group'>
                     <label htmlFor='name'>Nom:</label>
                     <input type='text' id="name" name='name' placeholder='Nom' value={formData.name} onChange={handleChange} className={errors.name ? "error" : ""} disabled={isLoading}/>
@@ -114,7 +114,7 @@ export default function ContactMenu() {
                         {errors.message && (<span className='error-message'>{errors.message}</span>)}
                 </div>
 
-                <button type='submit' disabled={isLoading}>{isLoading ? "ENVOIE..." : "ENVOYER"}</button>
+                <button className="submit" type='submit' disabled={isLoading}>{isLoading ? "ENVOIE..." : "ENVOYER"}</button>
             </form>
         )}
 

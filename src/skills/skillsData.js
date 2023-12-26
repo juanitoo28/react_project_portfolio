@@ -31,7 +31,7 @@ const skills = {
     
     2:[ {
         title: "PYTHON",
-        level: 6
+        level: 5
         },
         {
         title: "MACRO VBA",
