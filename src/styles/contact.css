@@ -219,7 +219,7 @@ label{
     }
 }
 
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
     .contact-menu{
         position: absolute;
         top: 52%;
@@ -247,12 +247,10 @@ label{
         padding: 0 0.5rem;
     }
     .buttonCv a{
-        /* margin-top: 15% !important; */
         font-size: 1rem !important;
         border-radius: 20px;
         width: 100%;
         padding: 10%;
-        /* margin-bottom: 0%; */
         text-decoration: none; 
         color: white;
         text-align: center;
@@ -276,4 +274,4 @@ label{
         height: 1.9rem;
         resize: none;
     }
-}
+} */

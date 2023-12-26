@@ -106,7 +106,7 @@
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 700px){
     .project-menu{
         width: 90%;
         flex-direction: column;
@@ -174,7 +174,7 @@
     }
 }
 
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
     .project-items-container{
         flex-direction: column;
         margin-top: 7%;
@@ -203,6 +203,5 @@
     }
     .link-container{
         margin-top: -1rem;
-        /* height: 0rem; */
     }
-}
+} */

@@ -166,7 +166,7 @@ p{
     }
 
 }
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
     .sub-container{
         top: 25%;
         left: 50%;
@@ -176,4 +176,4 @@ p{
     p{
         font-size: 0.7rem !important;
     }
-}
+} */

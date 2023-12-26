@@ -192,7 +192,7 @@
     }
 }
 
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
     .skill-menu{
         left: 55%;
     }
@@ -220,4 +220,4 @@
         height: 0.9rem;
         border-radius: 0.1rem;
     }
-}
+} */
